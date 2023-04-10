@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.content-container {
+  display: flex;
+}
+
+.content-box {
+  display: flex;
+  align-items: center;
+}
+
+.buttons > button {
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: rgb(166, 166, 225);
+  border: 0;
+}
+
+.informations {
+  background-color: rgb(166, 166, 225);
+  color: black;
+  width: 65%;
+  margin: 10px 20px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.informations:hover {
+  cursor: pointer;
+  background-color: rgb(2, 2, 96);
+  color: white;
+}
+
+.map-container {
+  height: 90vh;
+  width: 70%;
+}
+
+.cities-container {
+  width: 100%;
+  height: 80vh;
+  overflow: scroll;
+}
+
+.autocomplete-box {
+  margin-left: 16px;
+  border: 1px solid;
+  width: 90%;
+  overflow: hidden;
+}
+
+.search-container {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.search-container > input {
+  width: 85%;
+  border: 0;
+  height: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.search-result {
+  background-color: rgb(3, 3, 119);
+  margin: 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.buttons-selected-city > button {
+  margin: 5px;
+  background-color: rgb(166, 166, 225);
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(2, 2, 96);
+  color: white;
+}
+
+.cities-search {
+  width: 30%;
+}
+
+.buttons {
+  width: 20%;
+}
+
+.city-content-box {
+  width: 90%;
+  background-color: rgb(3, 3, 119);
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.comments-section {
+  display: none;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.comment-input {
+  display: flex;
+}
+
+.comment-input > input {
+  width: 100%;
+  background-color: rgb(166, 166, 225);
+  padding: 5px;
+}
+
+.comment-input > input::placeholder {
+  color: black;
+}
+
+.comments-list {
+  background-color: rgb(166, 166, 225);
+}
+
+.delete-comment {
+  margin-left: 20%;
+  background-color: rgb(3, 3, 119);
+  color: white;
+}

@@ -1,0 +1,12 @@
+nav {
+  background-color: rgb(3, 3, 119);
+}
+
+nav > button {
+  margin: 15px;
+  background-color: rgb(166, 166, 225);
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
